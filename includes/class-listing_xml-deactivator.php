@@ -3,7 +3,7 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       subhan.live
+ * @link       ahmed.live
  * @since      1.0.0
  *
  * @package    Listing_xml
@@ -18,7 +18,7 @@
  * @since      1.0.0
  * @package    Listing_xml
  * @subpackage Listing_xml/includes
- * @author     Subhan <subhan.naveed@devsinc.com>
+ * @author     Ahmed <hafizahmed.tx@gmail.com>
  */
 class Listing_xml_Deactivator {
 
