@@ -26,11 +26,11 @@ class Listing_xml_Activator {
 	public static function activate() {
 	
 	//Create DB Table
-	require_once plugin_dir_path( __FILE__ ) . 'models\Listing.php';
+	require_once plugin_dir_path( __FILE__ ) . 'models/Listing.php';
 	Listing_Model::listing_schema();
 
 	//Put data in DB Table
-	require plugin_dir_path( __FILE__ ) . 'parts\listing_data.php';
+	require plugin_dir_path( __FILE__ ) . 'parts/listing_data.php';
 	Listing_Data::insert_listing();
 
 	}
